@@ -1,8 +1,8 @@
-Freetronics USBHost
-===================
-Copyright 2011 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Freetronics USBDroid R3
+=======================
+Copyright 2011-2012 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
 The USBDroid is a 100% Arduino Compatible Board, based on the existing
 Uno, but with improvements and updates for ease of use, cost
@@ -11,7 +11,7 @@ using a dedicated port.
 
 Features:
 
- * Mini-USB connector
+ * Micro-USB connector
  * Integrated USB host functionality on a dedicated USB connector
  * Overlay guide where you need it (both top and bottom)
  * D13 pin works for everything
