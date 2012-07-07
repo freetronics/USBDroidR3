@@ -15826,7 +15826,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <frame x1="5.08" y1="5.08" x2="30.48" y2="10.16" columns="8" rows="5" layer="94"/>
 <wire x1="355.6" y1="145.796" x2="355.6" y2="100.33" width="0.4064" layer="97" style="longdash"/>
 <wire x1="378.46" y1="181.356" x2="378.46" y2="146.05" width="0.4064" layer="97" style="longdash"/>
-<text x="5.08" y="256.54" size="1.778" layer="94">IOREF</text>
+<text x="33.02" y="256.54" size="1.778" layer="94">IOREF</text>
 <text x="351.663" y="88.265" size="1.27" layer="94">(Linked)</text>
 <text x="360.68" y="96.52" size="1.27" layer="94">Short across SJ3 RESET-EN and SJ1 GROUND after all other routing is complete</text>
 <text x="422.91" y="112.268" size="1.27" layer="94">(Linked)</text>
@@ -15834,7 +15834,8 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instances>
 <instance part="H3" gate="G$1" x="17.78" y="223.52" rot="MR180"/>
 <instance part="H4" gate="G$1" x="231.14" y="223.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="233.172" y="210.82" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="240.284" y="236.982" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="233.934" y="210.566" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="GND13" gate="1" x="10.16" y="116.84"/>
 <instance part="FID2" gate="G$1" x="241.3" y="15.24"/>
@@ -16214,7 +16215,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </instance>
 <instance part="P+5" gate="G$1" x="284.48" y="116.84"/>
 <instance part="P+6" gate="G$1" x="304.8" y="17.78"/>
-<instance part="P+7" gate="G$1" x="38.1" y="251.46"/>
+<instance part="P+7" gate="G$1" x="43.18" y="251.46"/>
 <instance part="R11" gate="G$1" x="276.86" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="279.908" y="129.0066" size="1.778" layer="95"/>
 <attribute name="VALUE" x="279.908" y="126.492" size="1.778" layer="96"/>
@@ -17741,7 +17742,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="P+6" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="251.46" x2="38.1" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="251.46" x2="43.18" y2="251.46" width="0.1524" layer="91"/>
 <label x="27.94" y="251.46" size="1.778" layer="95"/>
 <pinref part="P+7" gate="G$1" pin="3.3V"/>
 <pinref part="H2" gate="G$1" pin="4"/>
@@ -17920,7 +17921,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <approved hash="208,1,93.98,68.58,3.3V,sup,,,,"/>
 <approved hash="208,1,284.48,116.84,3.3V,sup,,,,"/>
 <approved hash="208,1,304.8,17.78,3.3V,sup,,,,"/>
-<approved hash="208,1,38.1,251.46,3.3V,sup,,,,"/>
+<approved hash="208,1,43.18,251.46,3.3V,sup,,,,"/>
 <approved hash="208,1,10.16,154.94,5V,sup,,,,"/>
 <approved hash="208,1,482.6,58.42,5V,sup,,,,"/>
 <approved hash="208,1,353.06,167.64,5V,sup,,,,"/>
@@ -17938,7 +17939,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <approved hash="208,1,172.72,104.14,5V,sup,,,,"/>
 <approved hash="115,1,207.603,66.04,SJ5,,,,,"/>
 <approved hash="115,1,207.603,81.28,SJ4,,,,,"/>
-<approved hash="115,1,19.6427,248.725,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
